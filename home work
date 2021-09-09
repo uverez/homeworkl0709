@@ -1,0 +1,26 @@
+print('home work 1')
+a = int(input('enter number any number'))
+if a % 5 == 0 and a % 2 == 0:
+    print('div in ten')
+else:
+    print('not div in ten')
+
+print('home work 2')
+a = int(input('enter number any number'))
+if a == 0 or a == 1:
+    print (a)
+else:
+    if a == -1:
+        print(a)
+    else:
+        print('unknown number')
+
+print('home work 3')
+a = int(input('enter number any number'))
+if a <= 99 and a >= 10:
+    print (a % 10)
+
+print('home work 4')
+a = int(input('enter number any number'))
+if a % 10 == a // 10 and a >= 11:
+    print ('equal and positive')
